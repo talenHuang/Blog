@@ -70,10 +70,10 @@ const config= {
   1、注意在webpack4.6.0里面 `extract-text-webpack-plugin`由于版本支持的问题，所以需要
  ` npm install -s extract-text-webpack-plugin@next`安装与webpack4以上适应的版本，或者可以使用`mini-css-extract-plugin`。
  <br>
+
 2、 webpack只会到打包js文件，所以css需要引入js才能打包
 <br>
 ![](./images/aaa.png)
-<br>
 ### webpack.config.js全部代码
   ```javascript
 const path = require('path');//引入node中的path模块
