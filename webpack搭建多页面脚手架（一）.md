@@ -73,6 +73,8 @@ const config= {
 2、 webpack只会到打包js文件，所以css需要引入js才能打包
 <br>
 ![](./images/a.png)
+<br>
+
 
   ```javascript
 const path = require('path');//引入node中的path模块
@@ -166,3 +168,6 @@ module.exports = config
 ## 直接访问dist目录效果
 ![](./images/page1.png)
 ![](./images/page2.png)
+
+
+## 第一次webpack的尝试就到此为止，敬请期待。。。
