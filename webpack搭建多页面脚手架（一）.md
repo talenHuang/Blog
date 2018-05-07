@@ -72,10 +72,9 @@ const config= {
  <br>
 2、 webpack只会到打包js文件，所以css需要引入js才能打包
 <br>
-![](./images/a.png)
+![](./images/aaa.png)
 <br>
-
-
+### webpack.config.js全部代码
   ```javascript
 const path = require('path');//引入node中的path模块
 const webpack = require("webpack");//引入webpack
